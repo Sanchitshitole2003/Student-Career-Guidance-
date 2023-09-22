@@ -1,0 +1,43 @@
+.ourteam{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.cont-team{
+    display:flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.member{
+    display:inline-block;
+    padding:20px;
+    height:380px;
+    width:225px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, 
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, 
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    text-align: center;
+    
+}
+
+.member:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition:0.3s;
+}
+
+.Our-Wed-Site{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.abaut-info{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
